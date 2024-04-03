@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-02T11:43:03 IST" name="Suite" finished-at="2024-04-02T11:43:26 IST" duration-ms="23377">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.productErrorValidation()[pri:0, instance:OmkarIngale.SeleniumFrameworkDesign.ErrorValidationsTest@466276d8]" name="productErrorValidation" class="OmkarIngale.SeleniumFrameworkDesign.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2024-04-02T11:43:03 IST" name="Erro  Validation Test" finished-at="2024-04-02T11:43:24 IST" duration-ms="20822">
+      <class name="OmkarIngale.SeleniumFrameworkDesign.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:OmkarIngale.SeleniumFrameworkDesign.ErrorValidationsTest@466276d8]" started-at="2024-04-02T11:43:03 IST" name="launchApplication" finished-at="2024-04-02T11:43:12 IST" duration-ms="8619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:OmkarIngale.SeleniumFrameworkDesign.ErrorValidationsTest@466276d8]" started-at="2024-04-02T11:43:12 IST" name="loginErrorValidation" finished-at="2024-04-02T11:43:13 IST" duration-ms="1627" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect  or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect  or password.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at OmkarIngale.SeleniumFrameworkDesign.ErrorValidationsTest.loginErrorValidation(ErrorValidationsTest.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OmkarIngale.SeleniumFrameworkDesign.ErrorValidationsTest@466276d8]" started-at="2024-04-02T11:43:14 IST" name="closeBrowser" finished-at="2024-04-02T11:43:15 IST" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:OmkarIngale.SeleniumFrameworkDesign.ErrorValidationsTest@466276d8]" started-at="2024-04-02T11:43:15 IST" name="launchApplication" finished-at="2024-04-02T11:43:19 IST" duration-ms="4293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:OmkarIngale.SeleniumFrameworkDesign.ErrorValidationsTest@466276d8]" started-at="2024-04-02T11:43:19 IST" name="productErrorValidation" finished-at="2024-04-02T11:43:23 IST" duration-ms="4010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OmkarIngale.SeleniumFrameworkDesign.ErrorValidationsTest@466276d8]" started-at="2024-04-02T11:43:23 IST" name="closeBrowser" finished-at="2024-04-02T11:43:24 IST" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- OmkarIngale.SeleniumFrameworkDesign.ErrorValidationsTest -->
+    </test> <!-- Erro  Validation Test -->
+    <test started-at="2024-04-02T11:43:03 IST" name="Sunmit Order Test" finished-at="2024-04-02T11:43:26 IST" duration-ms="23377">
+      <class name="OmkarIngale.SeleniumFrameworkDesign.StandAloneProjectTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:OmkarIngale.SeleniumFrameworkDesign.StandAloneProjectTest@b4711e2]" started-at="2024-04-02T11:43:03 IST" name="launchApplication" finished-at="2024-04-02T11:43:12 IST" duration-ms="8789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="eCommerceProject()[pri:0, instance:OmkarIngale.SeleniumFrameworkDesign.StandAloneProjectTest@b4711e2]" started-at="2024-04-02T11:43:12 IST" name="eCommerceProject" finished-at="2024-04-02T11:43:19 IST" duration-ms="7492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eCommerceProject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OmkarIngale.SeleniumFrameworkDesign.StandAloneProjectTest@b4711e2]" started-at="2024-04-02T11:43:19 IST" name="closeBrowser" finished-at="2024-04-02T11:43:20 IST" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:OmkarIngale.SeleniumFrameworkDesign.StandAloneProjectTest@b4711e2]" started-at="2024-04-02T11:43:20 IST" name="launchApplication" finished-at="2024-04-02T11:43:25 IST" duration-ms="5104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyProductName()[pri:0, instance:OmkarIngale.SeleniumFrameworkDesign.StandAloneProjectTest@b4711e2]" started-at="2024-04-02T11:43:25 IST" name="verifyProductName" finished-at="2024-04-02T11:43:26 IST" depends-on-methods="OmkarIngale.SeleniumFrameworkDesign.StandAloneProjectTest.eCommerceProject" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductName -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OmkarIngale.SeleniumFrameworkDesign.StandAloneProjectTest@b4711e2]" started-at="2024-04-02T11:43:26 IST" name="closeBrowser" finished-at="2024-04-02T11:43:26 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- OmkarIngale.SeleniumFrameworkDesign.StandAloneProjectTest -->
+    </test> <!-- Sunmit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
